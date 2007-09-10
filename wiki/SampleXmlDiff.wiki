@@ -2,6 +2,7 @@
 
 = Sample mirror diff XML =
 
+{{{
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../xsl/delta.xsl" type="text/xml"?>
 
@@ -13,3 +14,4 @@
   <corrupted path="/Dkms/dkms-fcdslslusb-3.11.05-1mdk.noarch.rpm"/>
   <superfluous path="/Dkms/RPMS"/>
 </diff>
+}}}
