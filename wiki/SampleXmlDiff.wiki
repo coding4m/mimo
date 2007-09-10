@@ -1,4 +1,4 @@
-#Sample mirror diff XML
+Sample mirror diff XML
 
 = Sample mirror diff XML =
 
