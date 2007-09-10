@@ -1,0 +1,18 @@
+<!ELEMENT add (#PCDATA)>
+<!ATTLIST add xpath CDATA #IMPLIED>
+<!ATTLIST add name CDATA #IMPLIED>
+<!ATTLIST add date CDATA #IMPLIED>
+<!ATTLIST add size CDATA #IMPLIED>
+<!ELEMENT update (#PCDATA)>
+<!ATTLIST update timestamp CDATA #IMPLIED>
+<!ATTLIST update size CDATA #IMPLIED>
+<!ELEMENT delta (#PCDATA | del | update | add)*>
+<!ATTLIST delta mirror CDATA #IMPLIED>
+<!ATTLIST delta type CDATA #IMPLIED>
+<!ATTLIST delta name CDATA #IMPLIED>
+<!ATTLIST delta host CDATA #IMPLIED>
+<!ATTLIST delta protocol CDATA #IMPLIED>
+<!ATTLIST delta path CDATA #IMPLIED>
+<!ATTLIST delta timestamp CDATA #IMPLIED>
+<!ELEMENT del (#PCDATA)>
+<!ATTLIST del xpath CDATA #IMPLIED>

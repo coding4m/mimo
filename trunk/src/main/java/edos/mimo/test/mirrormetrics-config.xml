@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!--
+This file contains information about the mirrors to monitor
+		- login/password and user to access repositories
+		- primary mirror url (master mirror)
+		- secondary mirror urls (secondary mirrors to monitor)
+-->
+<mirrormetrics>
+	
+	<!--
+		The first user is to be considered the default user and it should match a
+		common account for all the mirrors.
+		For convenience, and because the mirror list will probably be generated
+		automatically which will make more difficult to specify a specific account
+		per mirror as explained below, alternative user accounts can be listed 
+		below. When the access is not granted for the default user, then the
+		program will try an alternative user account. Adding random user accounts
+		will greatly decrease the performance, you have been warned.
+		
+		Any user node contains either a passwd element or a dsakey element for 
+		authentication purposes. If the user node misses the inner authentication node
+		it will be interpreted as an empty password (the same when the passwd attribute
+		is missing).
+		
+		The attribute realname is optional.
+	 -->
+	 <!-- an user authenticated with a passwd -->
+	<user login="anonymous" realname="Anonymous User">
+		<passwd>edos-project@mandriva.com</passwd>
+	</user>
+	
+	<!-- an user authenticating with a DSA key -->
+	<user login="Linus" realname="Linus Thornvald">
+		<dsakey path="src/edos/distribution/mirror/test/edos-project@mandriva.com_dsa" passwd=""/>
+	</user>
+	
+	<!-- an anonymous user with an empty password -->
+	<user login="anonymous"/>
+	
+	
+	<!-- 
+		MIRROR LISTING
+		==============
+		there are some sources on the network which can be requested a mirror listing
+		multiple listing are supported, with multiple access (protocols and paths)
+	-->
+	<listing host="www1.mandrivalinux.com">
+		<access protocol="http" path="/mirrorsfull.list"/>
+	</listing>
+
+	
+	<!-- 
+		The master mirror is publishes the "official" version (or state) of the mirrors
+		There can only be one master mirror, and it will serve as a base for all comparisons.
+	 -->
+	<mastermirror name="Kenobi" host="kenobi.mandriva.com">
+		
+		<!--
+			any mirror can specify a user account to be used in order to connect
+			When a user account is specified it discards completely the default user
+			account and all its alternatives (see above).
+		 -->
+		<user login="mlijour" realname="Marc Lijour">
+			<!-- passwd="", or no passwd attribute at all represents an empty passphrase -->
+			<dsakey path="src/edos/distribution/mirror/test/edos-project@mandriva.com_dsa" passwd=""/>
+		</user>
+		
+		<!-- many accesses can exist -->
+		<access protocol="ssh" path="/mnt/BIG/distrib/cooker"/>
+	</mastermirror>
+	
+	
+	<!-- 
+		A secondary mirror is a target for monitoring
+		Usually there should be a lot of secondary mirrors, hundred of them.
+		They are the target of the monitoring activity.
+	 -->
+	<secondarymirror host="ftp.free.fr">
+		<!-- many accesses can exist -->
+		<access protocol="ftp" path="/mirrors/ftp.mandrake-linux.com/Mandrakelinux/devel/cooker"/>
+	</secondarymirror>
+</mirrormetrics>
