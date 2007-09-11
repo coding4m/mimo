@@ -1,1 +1,0 @@
-count(collection("testmachine_ftp.dbxml")[mirror])

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<delta mirror="testmachine_ftp" type="mirror" name="my local FTP site" host="testmachine" protocol="ftp" path="/cooker/cooker" timestamp="1141299191138">
-  <del xpath="/mirror/dir[@name='Dkms']/file[@name='RPMS']"/>
-  <update timestamp="1127130900000" size="426667"/>
-  <update timestamp="1127130900000"/>
-  <update size="381138"/>
-  <add xpath="/mirror/dir[@name='Dkms']/dir[@name='RPMS']" name="RPMS" date="1127769660000" size="13"/>
-</delta>

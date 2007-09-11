@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<delta mirror="master" type="mirror" name="Master" host="mirror" protocol="ftp" path="/pub/test" timestamp="2006-10-28T17:36:15.796">
-  <update xpath="/mirror/dir[@name='media']" date="2005-10-28T21:38:00.0"/>
-  <add xpath="/mirror/dir[@name='media']/dir[@name='added']" name="added" date="2005-10-28T21:36:00.0" size="4096"/>
-  <add xpath="/mirror/dir[@name='media']/dir[@name='added2']" name="added2" date="2005-10-28T21:38:00.0" size="4096"/>
-</delta>
