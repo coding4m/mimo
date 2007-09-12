@@ -1,0 +1,6 @@
+(:
+    Returns a node only if the document is a master structure
+    (and not if it is one of its mirrors)    
+:)
+
+collection($container)/mirror[@type = 'master']

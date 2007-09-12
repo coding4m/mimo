@@ -1,0 +1,1 @@
+count(collection('testmachine_ftp.dbxml')[delta])

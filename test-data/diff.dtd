@@ -1,0 +1,20 @@
+<!ELEMENT newer (#PCDATA)>
+<!ATTLIST newer path CDATA #IMPLIED>
+<!ATTLIST newer expected CDATA #IMPLIED>
+<!ATTLIST newer effective CDATA #IMPLIED>
+<!ELEMENT superfluous (#PCDATA)>
+<!ATTLIST superfluous path CDATA #IMPLIED>
+<!ELEMENT corrupted (#PCDATA)>
+<!ATTLIST corrupted path CDATA #IMPLIED>
+<!ELEMENT missing (#PCDATA)>
+<!ATTLIST missing path CDATA #IMPLIED>
+<!ELEMENT diff (#PCDATA | missing | newer | corrupted | older | superfluous)*>
+<!ATTLIST diff name CDATA #IMPLIED>
+<!ATTLIST diff host CDATA #IMPLIED>
+<!ATTLIST diff protocol CDATA #IMPLIED>
+<!ATTLIST diff path CDATA #IMPLIED>
+<!ATTLIST diff timestamp CDATA #IMPLIED>
+<!ELEMENT older (#PCDATA)>
+<!ATTLIST older path CDATA #IMPLIED>
+<!ATTLIST older expected CDATA #IMPLIED>
+<!ATTLIST older effective CDATA #IMPLIED>
