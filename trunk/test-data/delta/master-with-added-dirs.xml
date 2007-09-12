@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirror type="master" name="Master" host="mirror" protocol="ftp" path="/pub/test"
+    checkinTime="2006-10-28T17:36:15.169" checkoutTime="2006-10-28T17:36:15.775">
+    <dir name="media" date="2005-10-28T21:38:00.0" size="4096">
+        <dir name="added" date="2005-10-28T21:36:00.0" size="4096"/>
+        <dir name="added2" date="2005-10-28T21:38:00.0" size="4096"/>
+        <dir name="main" date="2006-10-09T19:43:00.0" size="49152">
+            <dir name="media_info" date="2006-10-09T19:40:00.0" size="4096"/>
+        </dir>
+    </dir>
+</mirror>

@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirror type="master" name="my local SSH site" host="testmachine" protocol="ssh"
+    path="/cooker/cooker" checkinTime="1141113726968" checkoutTime="1141113730566">
+    <file name="COPYING" date="1107493200000" size="18383"/>
+    <dir name="Dkms" date="1127769660000" size="4096">
+        <dir name="RPMS" date="1127769660000" size="13"/>
+        <file name="dkms-ati-8.16.20-4mdk.i586.rpm" date="1127130900000" size="426667"/>
+        <file name="dkms-fcdsl-3.11.07-1mdk.noarch.rpm" date="1127130900000" size="406048"/>
+        <file name="dkms-fcdsl2-3.11.07-1mdk.noarch.rpm" date="1127130900000" size="386853"/>
+        <file name="dkms-fcdslsl-3.11.07-1mdk.noarch.rpm" date="1127130900000" size="386314"/>
+        <file name="dkms-fcdslslusb-3.11.05-1mdk.noarch.rpm" date="1127130900000" size="381138"/>
+        <file name="dkms-fcdslusb-3.11.07-1mdk.i586.rpm" date="1127130900000" size="319271"/>
+        <file name="dkms-fcdslusb2-3.11.07-1mdk.i586.rpm" date="1127130900000" size="381778"/>
+        <file name="dkms-fcdslusba-3.11.05-1mdk.noarch.rpm" date="1127130900000" size="381253"/>
+        <file name="dkms-fcpci-3.11.07-1mdk.noarch.rpm" date="1127130900000" size="287825"/>
+        <file name="dkms-fcusb-3.11.04-1mdk.i586.rpm" date="1127130900000" size="274653"/>
+        <file name="dkms-fcusb2-3.11.07-1mdk.noarch.rpm" date="1127130900000" size="295524"/>
+        <file name="dkms-fxusb-3.11.06-1mdk.noarch.rpm" date="1127130900000" size="296324"/>
+        <file name="dkms-fxusb_CZ-3.11.06-1mdk.noarch.rpm" date="1127130900000" size="298181"/>
+        <file name="dkms-hcfpcimodem-1.06full-2mdk.i586.rpm" date="1127130900000" size="587571"/>
+        <file name="dkms-hsfmodem-7.18.00.05full-2mdk.i586.rpm" date="1127130900000" size="1051637"/>
+        <file name="dkms-madwifi-0.20050829-3mdk.i586.rpm" date="1127130900000" size="2145308"/>
+        <file name="dkms-nvidia-7676-5mdk.i586.rpm" date="1127130900000" size="1345327"/>
+        <file name="dkms-nvidia_legacy-7174-3mdk.i586.rpm" date="1127130900000" size="1426220"/>
+        <file name="dkms-slmodem-2.9.10-9mdk.i586.rpm" date="1127130900000" size="1900221"/>
+        <file name="dkms-unicorn-0.9.2-1mdk.i586.rpm" date="1127130900000" size="1304672"/>
+    </dir>
+    <dir name="Firmware" date="1127769660000" size="4096">
+        <file name="RPMS" date="1127769660000" size="18"/>
+        <file name="atmel-firmware-1.1-1mdk.noarch.rpm" date="1127130900000" size="472103"/>
+        <file name="fcdsl-firmware-3.11.07-1mdk.i586.rpm" date="1127130900000" size="588959"/>
+        <file name="fcdsl2-firmware-3.11.07-1mdk.i586.rpm" date="1127130900000" size="95260"/>
+        <file name="fcdslsl-firmware-3.11.07-1mdk.i586.rpm" date="1127130900000" size="92609"/>
+        <file name="fcdslslusb-firmware-3.11.05-1mdk.i586.rpm" date="1127130900000" size="93796"/>
+        <file name="fcdslusb-firmware-3.11.07-1mdk.i586.rpm" date="1127130900000" size="83429"/>
+        <file name="fcdslusba-firmware-3.11.05-1mdk.i586.rpm" date="1127130900000" size="155216"/>
+        <file name="fcusb2-firmware-3.11.07-1mdk.i586.rpm" date="1127130900000" size="22711"/>
+        <file name="ipw2100-firmware-1.3-1mdk.noarch.rpm" date="1127130900000" size="255929"/>
+        <file name="ipw2200-firmware-2.3-1mdk.noarch.rpm" date="1127130900000" size="275681"/>
+        <file name="prism54-firmware-1.0.4.3-1mdk.noarch.rpm" date="1127130900000" size="164737"/>
+        <file name="speedtouch_mgmt-0.1-4mdk.i586.rpm" date="1127130900000" size="1171043"/>
+    </dir>
+    <file name="INSTALL.txt" date="1126888260000" size="6932"/>
+    <dir name="Intel" date="1127769660000" size="2048">
+        <dir name="C++" date="1127769660000" size="6144">
+            <file name="BEA_License_Agreement.txt" date="1127133840000" size="10415"/>
+            <file name="Disclaimer.txt" date="1127133840000" size="2025"/>
+            <file name="EPCommonLauncher.sh" date="1127133840000" size="7323"/>
+            <file name="EPSilentInstallConfigFile.ini" date="1127133840000" size="2534"/>
+            <file name="EPinstall.sh" date="1127133840000" size="108221"/>
+            <file name="EPrecursivermdir" date="1127133840000" size="784"/>
+            <file name="EPuninstall.sh" date="1127133840000" size="5783"/>
+            <file name="INSTALL.htm" date="1127133840000" size="26749"/>
+            <file name="INSTALL.txt" date="1127133840000" size="22913"/>
+            <file name="README.txt" date="1127133840000" size="4484"/>
+            <file name="ReleaseNotes.htm" date="1127133840000" size="51196"/>
+            <file name="ReleaseNotes.txt" date="1127133840000" size="41530"/>
+            <file name="SilentInstallConfigFile.ini" date="1127133840000" size="5079"/>
+            <file name="SilentInstallFParser.awk" date="1127133840000" size="1467"/>
+            <file name="chklic.32" date="1127133840000" size="430804"/>
+            <file name="chklic.64" date="1127133840000" size="1926296"/>
+            <file name="chklic.em64t" date="1127133840000" size="418776"/>
+            <file name="clicense" date="1127133840000" size="15849"/>
+            <file name="eclipse-platform-3.0.1-linux-gtk.zip" date="1127133840000" size="24989110"/>
+            <file name="eclipse-platform-3.0.1-linux-motif.zip" date="1127133840000" size="25876456"/>
+            <file name="flex_ug.pdf" date="1127133840000" size="138324"/>
+            <dir name="flexlm_servers" date="1127769660000" size="2048">
+                <file name="flex_ug.pdf" date="1127133840000" size="138324"/>
+                <file name="flexlm.Linux.EL3.tar.gz" date="1127133840000" size="1365824"/>
+                <file name="flexlm.Linux.RHL9.tar.gz" date="1127133840000" size="1364941"/>
+                <file name="flexlm.Linux.ia64.EL3.tar.gz" date="1127133840000" size="2057917"/>
+                <file name="flexlm.Linux.ia64.EL3_SGIAltix.tar.gz" date="1127133840000"
+                    size="2256903"/>
+                <file name="flexlm.Linux.ia64.tar.gz" date="1127133840000" size="2225680"/>
+                <file name="flexlm.Linux.tar.gz" date="1127133840000" size="1424738"/>
+            </dir>
+            <file name="install.sh" date="1127133840000" size="4289"/>
+            <file name="install_cc.sh" date="1127133840000" size="113182"/>
+            <dir name="instman" date="1127769660000" size="2048">
+                <dir name="docs" date="1127769660000" size="2048">
+                    <file name="countries.txt" date="1127133840000" size="3825"/>
+                    <file name="license.txt" date="1127133840000" size="425"/>
+                    <file name="privacy.txt" date="1127133840000" size="270"/>
+                    <file name="proxy.txt" date="1127133840000" size="330"/>
+                    <file name="serialhelp.txt" date="1127133840000" size="530"/>
+                </dir>
+                <dir name="licenses" date="1127769660000" size="2048">
+                    <dir name="ares" date="1127769660000" size="2048">
+                        <file name="README" date="1127133840000" size="2152"/>
+                        <file name="license" date="1127133840000" size="718"/>
+                    </dir>
+                    <dir name="axis" date="1127769660000" size="2048">
+                        <file name="LICENSE" date="1127133840000" size="10315"/>
+                    </dir>
+                    <dir name="expat" date="1127769660000" size="2048">
+                        <file name="COPYING" date="1127133840000" size="1212"/>
+                        <file name="README" date="1127133840000" size="4975"/>
+                    </dir>
+                    <dir name="openssl" date="1127769660000" size="2048">
+                        <file name="license.txt" date="1127133840000" size="6406"/>
+                        <file name="readme.txt" date="1127133840000" size="7805"/>
+                    </dir>
+                    <dir name="xerces" date="1127769660000" size="2048">
+                        <file name="LICENSE.txt" date="1127133840000" size="2753"/>
+                    </dir>
+                </dir>
+                <file name="mediaconfig.xml" date="1127133840000" size="946"/>
+                <file name="seapp.config" date="1127133840000" size="2085"/>
+                <file name="searc.dat" date="1127133840000" size="40319"/>
+                <file name="secore" date="1127133840000" size="4480020"/>
+                <file name="secore64" date="1127133840000" size="10289560"/>
+                <file name="setui" date="1127133840000" size="2766780"/>
+                <file name="setui64" date="1127133840000" size="6295400"/>
+            </dir>
+            <file name="intel-icc9-9.0-020.i386.rpm" date="1127133840000" size="19383119"/>
+            <file name="intel-icc_ide9-9.0-020.i386.rpm" date="1127133840000" size="5233627"/>
+            <file name="intel-icce9-9.0-020.em64t.rpm" date="1127133840000" size="15954821"/>
+            <file name="intel-iidb9-9.0-025.i386.rpm" date="1127133840000" size="9001306"/>
+            <file name="intel-iidbe9-9.0-025.em64t.rpm" date="1127133840000" size="7705114"/>
+            <file name="intel-isubh9-9.0-020.i386.rpm" date="1127133840000" size="71610"/>
+            <file name="intel-isubhe9-9.0-020.em64t.rpm" date="1127133840000" size="71629"/>
+            <file name="lgpltext" date="1127133840000" size="1049"/>
+            <file name="linux_ia32_jrockit150_jre.zip" date="1127133840000" size="27546840"/>
+            <file name="org.eclipse.cdt-2.1.1-linux.x86.zip" date="1127133840000" size="9749512"/>
+            <file name="sdp-core-2.0.2.zip" date="1127133840000" size="508220"/>
+        </dir>
+        <dir name="Fortran" date="1127769660000" size="4096">
+            <file name="INSTALL.htm" date="1115697600000" size="23128"/>
+            <file name="INSTALL.txt" date="1115697600000" size="19452"/>
+            <file name="README.txt" date="1115697600000" size="4158"/>
+            <file name="ReleaseNotes.htm" date="1115697600000" size="55278"/>
+            <file name="ReleaseNotes.txt" date="1115697600000" size="45000"/>
+            <file name="SilentInstallConfigFile.ini" date="1115697600000" size="5079"/>
+            <file name="SilentInstallFParser.awk" date="1115697600000" size="1467"/>
+            <file name="chklic.32" date="1114833600000" size="430804"/>
+            <file name="chklic.64" date="1114833600000" size="1926296"/>
+            <file name="chklic.em64t" date="1114833600000" size="418776"/>
+            <file name="flex_ug.pdf" date="1115697600000" size="138324"/>
+            <dir name="flexlm_servers" date="1127769660000" size="2048">
+                <file name="flex_ug.pdf" date="1115006400000" size="138324"/>
+                <file name="flexlm.Linux.EL3.tar.gz" date="1109739600000" size="1365824"/>
+                <file name="flexlm.Linux.RHL9.tar.gz" date="1109739600000" size="1364941"/>
+                <file name="flexlm.Linux.ia64.EL3.tar.gz" date="1109739600000" size="2057917"/>
+                <file name="flexlm.Linux.ia64.EL3_SGIAltix.tar.gz" date="1109739600000"
+                    size="2256903"/>
+                <file name="flexlm.Linux.ia64.tar.gz" date="1109739600000" size="2225680"/>
+                <file name="flexlm.Linux.tar.gz" date="1109739600000" size="1424738"/>
+            </dir>
+            <file name="flicense" date="1115697600000" size="15853"/>
+            <file name="install.sh" date="1115697600000" size="4289"/>
+            <file name="install_fc.sh" date="1115697600000" size="113182"/>
+            <dir name="instman" date="1127769660000" size="2048">
+                <dir name="docs" date="1127769660000" size="2048">
+                    <file name="countries.txt" date="1115697600000" size="3825"/>
+                    <file name="license.txt" date="1115697600000" size="425"/>
+                    <file name="privacy.txt" date="1115697600000" size="270"/>
+                    <file name="proxy.txt" date="1115697600000" size="330"/>
+                    <file name="serialhelp.txt" date="1115697600000" size="530"/>
+                </dir>
+                <dir name="licenses" date="1127769660000" size="2048">
+                    <dir name="ares" date="1127769660000" size="2048">
+                        <file name="README" date="1112932800000" size="2152"/>
+                        <file name="license" date="1115784000000" size="718"/>
+                    </dir>
+                    <dir name="axis" date="1127769660000" size="2048">
+                        <file name="LICENSE" date="1078203600000" size="10315"/>
+                    </dir>
+                    <dir name="expat" date="1127769660000" size="2048">
+                        <file name="COPYING" date="1067490000000" size="1212"/>
+                        <file name="README" date="1089950400000" size="4975"/>
+                    </dir>
+                    <dir name="openssl" date="1127769660000" size="2048">
+                        <file name="license.txt" date="1079499600000" size="6406"/>
+                        <file name="readme.txt" date="1079499600000" size="7805"/>
+                    </dir>
+                    <dir name="xerces" date="1127769660000" size="2048">
+                        <file name="LICENSE.txt" date="1015563600000" size="2753"/>
+                    </dir>
+                </dir>
+                <file name="mediaconfig.xml" date="1115697600000" size="972"/>
+                <file name="seapp.config" date="1115697600000" size="2085"/>
+                <file name="searc.dat" date="1115697600000" size="40322"/>
+                <file name="secore" date="1115697600000" size="4480020"/>
+                <file name="secore64" date="1115697600000" size="10289560"/>
+                <file name="setui" date="1115697600000" size="2766780"/>
+                <file name="setui64" date="1115697600000" size="6295400"/>
+            </dir>
+            <file name="intel-ifort9-9.0-020.i386.rpm" date="1115697600000" size="25180123"/>
+            <file name="intel-iforte9-9.0-020.em64t.rpm" date="1115697600000" size="22429103"/>
+            <file name="intel-iidb9-9.0-025.i386.rpm" date="1115697600000" size="9001324"/>
+            <file name="intel-iidbe9-9.0-025.em64t.rpm" date="1115697600000" size="7705088"/>
+        </dir>
+    </dir>
+    <file name="LICENSE.txt" date="1126888260000" size="4744"/>
+    <file name="MD5SUM" date="1097553600000" size="0"/>
+    <dir name="Modules" date="1127769660000" size="26624">
+        <file name="RPMS" date="1127769660000" size="16"/>
+        <file name="a320raid-3.00.047-4mdk.noarch.rpm" date="1127236620000" size="3133"/>
+        <file name="a320raid-kernel-2.6.12-12mdk-3.00.047-1mdk.i586.rpm" date="1127130900000"
+            size="210727"/>
+        <file name="a320raid-kernel-2.6.12-12mdk-i586-up-1GB-3.00.047-1mdk.i586.rpm"
+            date="1127130900000" size="205835"/>
+        <file name="a320raid-kernel-2.6.12-12mdk-i686-up-4GB-3.00.047-1mdk.i586.rpm"
+            date="1127130900000" size="210878"/>
+        <file name="a320raid-kernel-2.6.12-12mdksmp-3.00.047-1mdk.i586.rpm" date="1127130900000"
+            size="210897"/>
+        <file name="a320raid-kernel-2.6.12-12mdkxen0-3.00.047-1mdk.i586.rpm" date="1127130900000"
+            size="210902"/>
+        <file name="a320raid-kernel-2.6.12-12mdkxenU-3.00.047-1mdk.i586.rpm" date="1127130900000"
+            size="210864"/>
+        <file name="ati-8.16.20-4mdk.i586.rpm" date="1127130960000" size="6152666"/>
+        <file name="ati-devel-8.16.20-4mdk.i586.rpm" date="1127130960000" size="18508"/>
+        <file name="ati-kernel-2.6.12-12mdk-8.16.20-1mdk.i586.rpm" date="1127130900000"
+            size="138124"/>
+        <file name="ati-kernel-2.6.12-12mdk-i586-up-1GB-8.16.20-1mdk.i586.rpm" date="1127130900000"
+            size="136935"/>
+        <file name="ati-kernel-2.6.12-12mdk-i686-up-4GB-8.16.20-1mdk.i586.rpm" date="1127130900000"
+            size="137825"/>
+        <file name="ati-kernel-2.6.12-12mdksmp-8.16.20-1mdk.i586.rpm" date="1127130900000"
+            size="137834"/>
+        <file name="ati-kernel-2.6.12-12mdkxen0-8.16.20-1mdk.i586.rpm" date="1127130960000"
+            size="138328"/>
+        <file name="ati-kernel-2.6.12-12mdkxenU-8.16.20-1mdk.i586.rpm" date="1127130960000"
+            size="138153"/>
+        <file name="drdsl-3.11.04-3mdk.i586.rpm" date="1127130900000" size="19309"/>
+        <file name="fcdsl-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="397786"/>
+        <file name="fcdsl-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="398620"/>
+        <file name="fcdsl-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="397855"/>
+        <file name="fcdsl-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="398427"/>
+        <file name="fcdsl-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="398037"/>
+        <file name="fcdsl-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="397889"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376459"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="376362"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="376729"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376694"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376530"/>
+        <file name="fcdsl2-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376666"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376558"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="376803"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="376727"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="377074"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376514"/>
+        <file name="fcdslsl-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="376618"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdk-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="374020"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdk-i586-up-1GB-3.11.05-1mdk.i586.rpm"
+            date="1127130960000" size="374117"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdk-i686-up-4GB-3.11.05-1mdk.i586.rpm"
+            date="1127130960000" size="373868"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdksmp-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="374311"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdkxen0-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="374102"/>
+        <file name="fcdslslusb-kernel-2.6.12-12mdkxenU-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="374011"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="314543"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="314838"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="314425"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="315137"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="315051"/>
+        <file name="fcdslusb-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="314840"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="374087"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="374528"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="374301"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="374252"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="374262"/>
+        <file name="fcdslusb2-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="374273"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdk-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="373867"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdk-i586-up-1GB-3.11.05-1mdk.i586.rpm"
+            date="1127130960000" size="373692"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdk-i686-up-4GB-3.11.05-1mdk.i586.rpm"
+            date="1127130960000" size="373952"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdksmp-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="373814"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdkxen0-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="373765"/>
+        <file name="fcdslusba-kernel-2.6.12-12mdkxenU-3.11.05-1mdk.i586.rpm" date="1127130960000"
+            size="373966"/>
+        <file name="fcpci-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="281145"/>
+        <file name="fcpci-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="281324"/>
+        <file name="fcpci-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="281511"/>
+        <file name="fcpci-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="281444"/>
+        <file name="fcpci-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="281119"/>
+        <file name="fcpci-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="281084"/>
+        <file name="fcusb-kernel-2.6.12-12mdk-3.11.04-1mdk.i586.rpm" date="1127130960000"
+            size="272075"/>
+        <file name="fcusb-kernel-2.6.12-12mdk-i586-up-1GB-3.11.04-1mdk.i586.rpm"
+            date="1127130960000" size="272457"/>
+        <file name="fcusb-kernel-2.6.12-12mdk-i686-up-4GB-3.11.04-1mdk.i586.rpm"
+            date="1127130960000" size="272400"/>
+        <file name="fcusb-kernel-2.6.12-12mdksmp-3.11.04-1mdk.i586.rpm" date="1127130960000"
+            size="272136"/>
+        <file name="fcusb-kernel-2.6.12-12mdkxen0-3.11.04-1mdk.i586.rpm" date="1127130960000"
+            size="272243"/>
+        <file name="fcusb-kernel-2.6.12-12mdkxenU-3.11.04-1mdk.i586.rpm" date="1127130960000"
+            size="271958"/>
+        <file name="fcusb2-kernel-2.6.12-12mdk-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="291554"/>
+        <file name="fcusb2-kernel-2.6.12-12mdk-i586-up-1GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="291259"/>
+        <file name="fcusb2-kernel-2.6.12-12mdk-i686-up-4GB-3.11.07-1mdk.i586.rpm"
+            date="1127130960000" size="291610"/>
+        <file name="fcusb2-kernel-2.6.12-12mdksmp-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="291845"/>
+        <file name="fcusb2-kernel-2.6.12-12mdkxen0-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="291360"/>
+        <file name="fcusb2-kernel-2.6.12-12mdkxenU-3.11.07-1mdk.i586.rpm" date="1127130960000"
+            size="291402"/>
+        <file name="fxusb-kernel-2.6.12-12mdk-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292344"/>
+        <file name="fxusb-kernel-2.6.12-12mdk-i586-up-1GB-3.11.06-1mdk.i586.rpm"
+            date="1127130960000" size="292075"/>
+        <file name="fxusb-kernel-2.6.12-12mdk-i686-up-4GB-3.11.06-1mdk.i586.rpm"
+            date="1127130960000" size="292466"/>
+        <file name="fxusb-kernel-2.6.12-12mdksmp-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292518"/>
+        <file name="fxusb-kernel-2.6.12-12mdkxen0-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292302"/>
+        <file name="fxusb-kernel-2.6.12-12mdkxenU-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292415"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdk-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292256"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdk-i586-up-1GB-3.11.06-1mdk.i586.rpm"
+            date="1127130960000" size="292200"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdk-i686-up-4GB-3.11.06-1mdk.i586.rpm"
+            date="1127130960000" size="292260"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdksmp-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292490"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdkxen0-3.11.06-1mdk.i586.rpm" date="1127130960000"
+            size="292018"/>
+        <file name="fxusb_CZ-kernel-2.6.12-12mdkxenU-3.11.06-1mdk.i586.rpm" date="1127131020000"
+            size="292347"/>
+        <file name="hcfpcimodem-1.06full-2mdk.i586.rpm" date="1127130900000" size="502984"/>
+        <file name="hcfpcimodem-doc-1.06full-2mdk.i586.rpm" date="1127130960000" size="641346"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdk-1.06full-1mdk.i586.rpm" date="1127130960000"
+            size="487922"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdk-i586-up-1GB-1.06full-1mdk.i586.rpm"
+            date="1127130960000" size="487007"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdk-i686-up-4GB-1.06full-1mdk.i586.rpm"
+            date="1127130960000" size="488436"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdksmp-1.06full-1mdk.i586.rpm" date="1127130960000"
+            size="488705"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdkxen0-1.06full-1mdk.i586.rpm" date="1127130960000"
+            size="487931"/>
+        <file name="hcfpcimodem-kernel-2.6.12-12mdkxenU-1.06full-1mdk.i586.rpm" date="1127130960000"
+            size="488016"/>
+        <file name="hsfmodem-7.18.00.05full-2mdk.i586.rpm" date="1127130960000" size="222809"/>
+        <file name="hsfmodem-doc-7.18.00.05full-2mdk.i586.rpm" date="1127130960000" size="641447"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdk-7.18.00.05full-1mdk.i586.rpm" date="1127130960000"
+            size="868993"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdk-i586-up-1GB-7.18.00.05full-1mdk.i586.rpm"
+            date="1127130960000" size="868893"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdk-i686-up-4GB-7.18.00.05full-1mdk.i586.rpm"
+            date="1127130960000" size="869478"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdksmp-7.18.00.05full-1mdk.i586.rpm"
+            date="1127130960000" size="870208"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdkxen0-7.18.00.05full-1mdk.i586.rpm"
+            date="1127130960000" size="868847"/>
+        <file name="hsfmodem-kernel-2.6.12-12mdkxenU-7.18.00.05full-1mdk.i586.rpm"
+            date="1127130960000" size="868754"/>
+        <file name="madwifi-0.20050829-3mdk.i586.rpm" date="1127130960000" size="21168"/>
+        <file name="madwifi-kernel-2.6.12-12mdk-0.20050829-1mdk.i586.rpm" date="1127130960000"
+            size="219584"/>
+        <file name="madwifi-kernel-2.6.12-12mdk-i586-up-1GB-0.20050829-1mdk.i586.rpm"
+            date="1127130960000" size="217258"/>
+        <file name="madwifi-kernel-2.6.12-12mdk-i686-up-4GB-0.20050829-1mdk.i586.rpm"
+            date="1127130960000" size="219765"/>
+        <file name="madwifi-kernel-2.6.12-12mdksmp-0.20050829-1mdk.i586.rpm" date="1127130960000"
+            size="221228"/>
+        <file name="madwifi-kernel-2.6.12-12mdkxen0-0.20050829-1mdk.i586.rpm" date="1127130960000"
+            size="219879"/>
+        <file name="madwifi-kernel-2.6.12-12mdkxenU-0.20050829-1mdk.i586.rpm" date="1127130960000"
+            size="219769"/>
+        <file name="nvidia-7676-5mdk.i586.rpm" date="1127130960000" size="3240932"/>
+        <file name="nvidia-kernel-2.6.12-12mdk-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1241989"/>
+        <file name="nvidia-kernel-2.6.12-12mdk-i586-up-1GB-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1241302"/>
+        <file name="nvidia-kernel-2.6.12-12mdk-i686-up-4GB-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1241315"/>
+        <file name="nvidia-kernel-2.6.12-12mdksmp-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1242250"/>
+        <file name="nvidia-kernel-2.6.12-12mdkxen0-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1242135"/>
+        <file name="nvidia-kernel-2.6.12-12mdkxenU-7676-1mdk.i586.rpm" date="1127130960000"
+            size="1242249"/>
+        <file name="nvidia_legacy-7174-1mdk.i586.rpm" date="1127131020000" size="3204209"/>
+        <file name="nvidia_legacy-7174-3mdk.i586.rpm" date="1127131020000" size="3204334"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdk-7174-1mdk.i586.rpm" date="1127131020000"
+            size="1275265"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdk-i586-up-1GB-7174-1mdk.i586.rpm"
+            date="1127131020000" size="1275367"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdk-i686-up-4GB-7174-1mdk.i586.rpm"
+            date="1127131020000" size="1275571"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdksmp-7174-1mdk.i586.rpm" date="1127131020000"
+            size="1275172"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdkxen0-7174-1mdk.i586.rpm" date="1127131020000"
+            size="1275360"/>
+        <file name="nvidia_legacy-kernel-2.6.12-12mdkxenU-7174-1mdk.i586.rpm" date="1127131020000"
+            size="1275290"/>
+        <file name="slmodem-2.9.10-9mdk.i586.rpm" date="1127130960000" size="925010"/>
+        <file name="slmodem-kernel-2.6.12-12mdk-2.9.10-1mdk.i586.rpm" date="1127130960000"
+            size="211836"/>
+        <file name="slmodem-kernel-2.6.12-12mdk-i586-up-1GB-2.9.10-1mdk.i586.rpm"
+            date="1127130960000" size="211428"/>
+        <file name="slmodem-kernel-2.6.12-12mdk-i686-up-4GB-2.9.10-1mdk.i586.rpm"
+            date="1127130960000" size="212068"/>
+        <file name="slmodem-kernel-2.6.12-12mdksmp-2.9.10-1mdk.i586.rpm" date="1127130960000"
+            size="211891"/>
+        <file name="slmodem-kernel-2.6.12-12mdkxen0-2.9.10-1mdk.i586.rpm" date="1127130960000"
+            size="211764"/>
+        <file name="slmodem-kernel-2.6.12-12mdkxenU-2.9.10-1mdk.i586.rpm" date="1127130960000"
+            size="211761"/>
+        <file name="unicorn-0.9.2-1mdk.i586.rpm" date="1127130960000" size="53232"/>
+        <file name="unicorn-kernel-2.6.12-12mdk-0.9.2-1mdk.i586.rpm" date="1127130960000"
+            size="1241752"/>
+        <file name="unicorn-kernel-2.6.12-12mdk-i586-up-1GB-0.9.2-1mdk.i586.rpm"
+            date="1127130960000" size="1239632"/>
+        <file name="unicorn-kernel-2.6.12-12mdk-i686-up-4GB-0.9.2-1mdk.i586.rpm"
+            date="1127130960000" size="1242988"/>
+        <file name="unicorn-kernel-2.6.12-12mdksmp-0.9.2-1mdk.i586.rpm" date="1127130960000"
+            size="1245284"/>
+        <file name="unicorn-kernel-2.6.12-12mdkxen0-0.9.2-1mdk.i586.rpm" date="1127130960000"
+            size="1242575"/>
+        <file name="unicorn-kernel-2.6.12-12mdkxenU-0.9.2-1mdk.i586.rpm" date="1127130960000"
+            size="1242480"/>
+    </dir>
+    <dir name="Plugins" date="1127769660000" size="8192">
+        <file name="FlashPlayer-7.0-2mdk.i586.rpm" date="1127130840000" size="990376"/>
+        <file name="RPMS" date="1127769660000" size="16"/>
+        <file name="RealPlayer-10.0.5.756-1mdk.i586.rpm" date="1127161860000" size="6722744"/>
+        <file name="RealPlayer-rpnp-10.0.5.756-1mdk.i586.rpm" date="1127161860000" size="21089"/>
+        <file name="acroread-7.0.1-3mdk.i586.rpm" date="1127130900000" size="54978344"/>
+        <file name="acroread-l10n-da-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5165569"/>
+        <file name="acroread-l10n-de-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5970774"/>
+        <file name="acroread-l10n-es-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5233489"/>
+        <file name="acroread-l10n-fi-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5255798"/>
+        <file name="acroread-l10n-fr-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5515389"/>
+        <file name="acroread-l10n-it-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5005676"/>
+        <file name="acroread-l10n-ja-7.0.1-3mdk.i586.rpm" date="1127130900000" size="4173598"/>
+        <file name="acroread-l10n-ko-7.0.1-3mdk.i586.rpm" date="1127130900000" size="4399378"/>
+        <file name="acroread-l10n-nb-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5351004"/>
+        <file name="acroread-l10n-nl-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5358075"/>
+        <file name="acroread-l10n-pt-7.0.1-3mdk.i586.rpm" date="1127130900000" size="5189880"/>
+        <file name="acroread-l10n-sv-7.0.1-3mdk.i586.rpm" date="1127130900000" size="6199646"/>
+        <file name="acroread-l10n-zh_CN-7.0.1-3mdk.i586.rpm" date="1127130840000" size="4253427"/>
+        <file name="acroread-l10n-zh_TW-7.0.1-3mdk.i586.rpm" date="1127130900000" size="4319100"/>
+        <file name="acroread-nppdf-7.0.1-3mdk.i586.rpm" date="1127130900000" size="345204"/>
+        <file name="acroread-plugins-accessibility-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="204897"/>
+        <file name="acroread-plugins-checkers-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="471554"/>
+        <file name="acroread-plugins-comments-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="2097971"/>
+        <file name="acroread-plugins-digitalsignature-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="1001360"/>
+        <file name="acroread-plugins-ecmascript-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="771649"/>
+        <file name="acroread-plugins-extwin-7.0.1-3mdk.i586.rpm" date="1127130900000" size="108884"/>
+        <file name="acroread-plugins-forms-7.0.1-3mdk.i586.rpm" date="1127130900000" size="4511347"/>
+        <file name="acroread-plugins-internetaccess-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="186480"/>
+        <file name="acroread-plugins-legalpdf-7.0.1-3mdk.i586.rpm" date="1127130900000" size="82568"/>
+        <file name="acroread-plugins-makeaccessible-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="1606719"/>
+        <file name="acroread-plugins-pddom-7.0.1-3mdk.i586.rpm" date="1127130900000" size="396159"/>
+        <file name="acroread-plugins-ppklite-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="3223813"/>
+        <file name="acroread-plugins-saveasrtf-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="286432"/>
+        <file name="acroread-plugins-searchfind-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="409951"/>
+        <file name="acroread-plugins-sendmail-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="142570"/>
+        <file name="acroread-plugins-soap-7.0.1-3mdk.i586.rpm" date="1127130900000" size="701884"/>
+        <file name="acroread-plugins-spelling-7.0.1-3mdk.i586.rpm" date="1127130900000"
+            size="313881"/>
+        <file name="acroread-plugins-weblink-7.0.1-3mdk.i586.rpm" date="1127130900000" size="139492"/>
+        <file name="acroread5-5.0.10-2mdk.i586.rpm" date="1125706980000" size="8793235"/>
+        <file name="acroread5-nppdf-5.0.10-2mdk.i586.rpm" date="1125706980000" size="41950"/>
+        <file name="cxoffice-2.1.1mdkdemo-1.i386.rpm" date="1125707040000" size="10091935"/>
+        <file name="j2re-1.4.2_09-1mdk.i586.rpm" date="1127130900000" size="22053812"/>
+        <file name="j2sdk-1.4.2_09-1mdk.i586.rpm" date="1127130900000" size="42992946"/>
+        <file name="mindawn-1.3.050824-050916mdk.i586.rpm" date="1127130900000" size="734833"/>
+        <file name="opera-8.50-20050916.5.i386.rpm" date="1127240760000" size="4242732"/>
+        <file name="opera-readme.txt" date="1125707040000" size="139"/>
+        <file name="readme_opera" date="1126704480000" size="26"/>
+        <file name="skype-1.2.0.17-1mdk.i586.rpm" date="1127245020000" size="7818873"/>
+    </dir>
+    <file name="README.txt" date="1125604980000" size="3444"/>
+    <file name="VERSION" date="1127770380000" size="60"/>
+    <file name="autorun.inf" date="1076389200000" size="65"/>
+    <file name="default.xbe" date="1122436800000" size="167520"/>
+    <dir name="doc" date="1127769660000" size="2048">
+        <dir name="install" date="1127769660000" size="8192">
+            <dir name="af" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7145"/>
+                <file name="LICENSE-APPS.txt" date="1029902400000" size="1428"/>
+                <file name="LICENSE.txt" date="1125604200000" size="4730"/>
+                <file name="README.txt" date="1125604200000" size="3493"/>
+                <file name="index.htm" date="1125604200000" size="7539"/>
+                <file name="install.htm" date="1125604200000" size="9765"/>
+            </dir>
+            <dir name="ar" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6634"/>
+                <file name="README.txt" date="1125604200000" size="3252"/>
+                <file name="index.htm" date="1125604200000" size="8684"/>
+                <file name="install.htm" date="1125604200000" size="12406"/>
+            </dir>
+            <dir name="az" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="8347"/>
+                <file name="README.txt" date="1125604200000" size="3842"/>
+                <file name="index.htm" date="1125604200000" size="7861"/>
+                <file name="install.htm" date="1125604200000" size="11018"/>
+            </dir>
+            <dir name="bg" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7710"/>
+                <file name="README.txt" date="1125604200000" size="3598"/>
+                <file name="index.htm" date="1125604200000" size="9329"/>
+                <file name="install.htm" date="1125604200000" size="14037"/>
+            </dir>
+            <dir name="bn" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="14304"/>
+                <file name="README.txt" date="1125604200000" size="6833"/>
+                <file name="index.htm" date="1125604200000" size="11054"/>
+                <file name="install.htm" date="1125604200000" size="17037"/>
+            </dir>
+            <dir name="br" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7146"/>
+                <file name="README.txt" date="1125604200000" size="3521"/>
+                <file name="index.htm" date="1125604200000" size="7582"/>
+                <file name="install.htm" date="1125604200000" size="9806"/>
+            </dir>
+            <dir name="bs" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7213"/>
+                <file name="README.txt" date="1125604200000" size="3593"/>
+                <file name="index.htm" date="1125604200000" size="7591"/>
+                <file name="install.htm" date="1125604200000" size="9831"/>
+            </dir>
+            <dir name="ca" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7433"/>
+                <file name="LICENSE-APPS.txt" date="1077166800000" size="1455"/>
+                <file name="LICENSE.txt" date="1125604200000" size="5528"/>
+                <file name="README.txt" date="1125604200000" size="3747"/>
+                <file name="index.htm" date="1125604200000" size="7821"/>
+                <file name="install.htm" date="1125604200000" size="10190"/>
+            </dir>
+            <dir name="cs" date="1127769660000" size="2048">
+                <file name="INSTALL.dos" date="1125604200000" size="7190"/>
+                <file name="INSTALL.txt" date="1125604200000" size="7190"/>
+                <file name="INSTALL.win" date="1125604200000" size="7190"/>
+                <file name="README.txt" date="1125604200000" size="3632"/>
+                <file name="index.htm" date="1125604200000" size="7818"/>
+                <file name="install.htm" date="1125604200000" size="10153"/>
+            </dir>
+            <dir name="cy" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7282"/>
+                <file name="README.txt" date="1125604200000" size="3534"/>
+                <file name="index.htm" date="1125604200000" size="7474"/>
+                <file name="install.htm" date="1125604200000" size="9657"/>
+            </dir>
+            <dir name="da" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7090"/>
+                <file name="README.txt" date="1125604200000" size="3392"/>
+                <file name="index.htm" date="1125604200000" size="7399"/>
+                <file name="install.htm" date="1125604200000" size="9743"/>
+            </dir>
+            <dir name="de" date="1127769660000" size="2048">
+                <file name="COPYING.htm" date="1125604200000" size="29381"/>
+                <file name="INSTALL.txt" date="1125604200000" size="8400"/>
+                <file name="LICENSE-APPS.txt" date="971064000000" size="1487"/>
+                <file name="LICENSE.txt" date="1125604200000" size="5279"/>
+                <file name="README.txt" date="1125604200000" size="3816"/>
+                <file name="index.htm" date="1125604200000" size="7834"/>
+                <file name="install.htm" date="1125604200000" size="10946"/>
+            </dir>
+            <dir name="el" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7605"/>
+                <file name="README.txt" date="1125604200000" size="3708"/>
+                <file name="index.htm" date="1125604200000" size="9450"/>
+                <file name="install.htm" date="1125604200000" size="13989"/>
+            </dir>
+            <dir name="eo" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7468"/>
+                <file name="README.txt" date="1125604200000" size="3562"/>
+                <file name="index.htm" date="1125604200000" size="7564"/>
+                <file name="install.htm" date="1125604200000" size="10083"/>
+            </dir>
+            <dir name="es" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7485"/>
+                <file name="LICENSE-APPS.txt" date="971064000000" size="1623"/>
+                <file name="LICENSE.txt" date="1125604200000" size="5186"/>
+                <file name="README.txt" date="1125604200000" size="3860"/>
+                <file name="index.htm" date="1125604200000" size="7927"/>
+                <file name="install.htm" date="1125604200000" size="10054"/>
+            </dir>
+            <dir name="et" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="7051"/>
+                <file name="README.txt" date="1126892700000" size="3600"/>
+                <file name="index.htm" date="1126892700000" size="7573"/>
+                <file name="install.htm" date="1126892700000" size="9574"/>
+            </dir>
+            <dir name="eu" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7257"/>
+                <file name="README.txt" date="1125604200000" size="3578"/>
+                <file name="index.htm" date="1125604200000" size="7547"/>
+                <file name="install.htm" date="1125604200000" size="9793"/>
+            </dir>
+            <dir name="fa" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="10652"/>
+                <file name="README.txt" date="1125604200000" size="4987"/>
+                <file name="index.htm" date="1125604200000" size="9064"/>
+                <file name="install.htm" date="1125604200000" size="13129"/>
+            </dir>
+            <dir name="fi" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6947"/>
+                <file name="README.txt" date="1125604200000" size="3457"/>
+                <file name="index.htm" date="1125604200000" size="7492"/>
+                <file name="install.htm" date="1125604200000" size="9581"/>
+            </dir>
+            <dir name="fr" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7859"/>
+                <file name="LICENSE-APPS.txt" date="971064000000" size="1770"/>
+                <file name="LICENSE.txt" date="1125604200000" size="4860"/>
+                <file name="README.txt" date="1125604200000" size="4032"/>
+                <file name="index.htm" date="1125604200000" size="8130"/>
+                <file name="install.htm" date="1125604200000" size="10796"/>
+            </dir>
+            <dir name="ga" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7006"/>
+                <file name="install.htm" date="1125604200000" size="9379"/>
+            </dir>
+            <dir name="gl" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7314"/>
+                <file name="README.txt" date="1125604200000" size="3701"/>
+                <file name="index.htm" date="1125604200000" size="7790"/>
+                <file name="install.htm" date="1125604200000" size="10030"/>
+            </dir>
+            <dir name="he" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="9036"/>
+                <file name="README.txt" date="1125604200000" size="4332"/>
+                <file name="index.htm" date="1125604200000" size="8369"/>
+                <file name="install.htm" date="1125604200000" size="11603"/>
+            </dir>
+            <dir name="hi" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="14624"/>
+                <file name="README.txt" date="1125604200000" size="7623"/>
+                <file name="index.htm" date="1125604200000" size="11902"/>
+                <file name="install.htm" date="1125604200000" size="17420"/>
+            </dir>
+            <dir name="hr" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6999"/>
+                <file name="README.txt" date="1125604200000" size="3375"/>
+                <file name="index.htm" date="1125604200000" size="7362"/>
+                <file name="install.htm" date="1125604200000" size="9597"/>
+            </dir>
+            <dir name="hu" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7736"/>
+                <file name="LICENSE-APPS-hu.txt" date="1063166400000" size="1595"/>
+                <file name="LICENSE-hu.txt" date="1125604200000" size="5326"/>
+                <file name="README.txt" date="1125604200000" size="3669"/>
+                <file name="index.htm" date="1125604200000" size="7805"/>
+                <file name="install.htm" date="1125604200000" size="10751"/>
+            </dir>
+            <dir name="id" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7238"/>
+                <file name="README.txt" date="1125604200000" size="3531"/>
+                <file name="index.htm" date="1125604200000" size="7465"/>
+                <file name="install.htm" date="1125604200000" size="9731"/>
+            </dir>
+            <dir name="images" date="1127769660000" size="2048">
+                <file name="LMDK.jpg" date="1125610620000" size="11076"/>
+            </dir>
+            <dir name="is" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6917"/>
+                <file name="README.txt" date="1125604200000" size="3408"/>
+                <file name="index.htm" date="1125604200000" size="7578"/>
+                <file name="install.htm" date="1125604200000" size="9938"/>
+            </dir>
+            <dir name="it" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7703"/>
+                <file name="LICENSE-APPS.txt" date="987048000000" size="1608"/>
+                <file name="LICENSE.txt" date="1125604200000" size="4955"/>
+                <file name="README.txt" date="1125604200000" size="3775"/>
+                <file name="index.htm" date="1125604200000" size="7762"/>
+                <file name="install.htm" date="1125604200000" size="10263"/>
+            </dir>
+            <dir name="ja" date="1127769660000" size="2048">
+                <file name="INSTALL.euc" date="1125604200000" size="6989"/>
+                <file name="INSTALL.txt" date="1125604200000" size="6989"/>
+                <file name="README.euc" date="1125604200000" size="3374"/>
+                <file name="README.txt" date="1125604200000" size="3374"/>
+                <file name="index.htm" date="1125604200000" size="8298"/>
+                <file name="install.htm" date="1125604200000" size="11555"/>
+            </dir>
+            <dir name="ka" date="1127769660000" size="2048">
+                <file name="COPYING.htm" date="1125604200000" size="58295"/>
+                <file name="INSTALL.txt" date="1125604200000" size="16620"/>
+                <file name="README.txt" date="1125604200000" size="8872"/>
+                <file name="index.htm" date="1125604200000" size="13298"/>
+                <file name="install.htm" date="1125604200000" size="19263"/>
+            </dir>
+            <dir name="ku" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="9052"/>
+                <file name="README.txt" date="1125604200000" size="3837"/>
+                <file name="index.htm" date="1125604200000" size="7771"/>
+                <file name="install.htm" date="1125604200000" size="11556"/>
+            </dir>
+            <dir name="ky" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="11182"/>
+                <file name="README.txt" date="1125604200000" size="5409"/>
+                <file name="index.htm" date="1125604200000" size="9531"/>
+                <file name="install.htm" date="1125604200000" size="13799"/>
+            </dir>
+            <dir name="lt" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7233"/>
+                <file name="README.txt" date="1125604200000" size="3551"/>
+                <file name="index.htm" date="1125604200000" size="7590"/>
+                <file name="install.htm" date="1125604200000" size="10004"/>
+            </dir>
+            <dir name="lv" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7232"/>
+                <file name="README.txt" date="1125604200000" size="3564"/>
+                <file name="index.htm" date="1125604200000" size="7701"/>
+                <file name="install.htm" date="1125604200000" size="10091"/>
+            </dir>
+            <dir name="mk" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="10924"/>
+                <file name="README.txt" date="1125604200000" size="5286"/>
+                <file name="index.htm" date="1125604200000" size="9480"/>
+                <file name="install.htm" date="1125604200000" size="13611"/>
+            </dir>
+            <dir name="mn" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="10290"/>
+                <file name="README.txt" date="1125604200000" size="4596"/>
+                <file name="index.htm" date="1125604200000" size="8691"/>
+                <file name="install.htm" date="1125604200000" size="12903"/>
+            </dir>
+            <dir name="mt" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7274"/>
+                <file name="README.txt" date="1125604200000" size="3701"/>
+                <file name="index.htm" date="1125604200000" size="7678"/>
+                <file name="install.htm" date="1125604200000" size="9831"/>
+            </dir>
+            <dir name="nl" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7582"/>
+                <file name="README.txt" date="1125604200000" size="3688"/>
+                <file name="index.htm" date="1125604200000" size="7625"/>
+                <file name="install.htm" date="1125604200000" size="10092"/>
+            </dir>
+            <dir name="no" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="7016"/>
+                <file name="README.txt" date="1126892700000" size="3423"/>
+                <file name="index.htm" date="1126892700000" size="7438"/>
+                <file name="install.htm" date="1126892700000" size="9651"/>
+            </dir>
+            <dir name="pa_IN" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="12905"/>
+                <file name="README.txt" date="1125604200000" size="6276"/>
+                <file name="index.htm" date="1125604200000" size="10494"/>
+                <file name="install.htm" date="1125604200000" size="15623"/>
+            </dir>
+            <dir name="pl" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7246"/>
+                <file name="LICENSE-APPS.txt" date="1094616000000" size="1379"/>
+                <file name="README.txt" date="1125604200000" size="3621"/>
+                <file name="index.htm" date="1125604200000" size="7704"/>
+                <file name="install.htm" date="1125604200000" size="10057"/>
+            </dir>
+            <dir name="po" date="1127769660000" size="10240">
+                <file name="CD_README.pot" date="1125604200000" size="18753"/>
+                <file name="af.po" date="1125604200000" size="26419"/>
+                <file name="am.po" date="1125604200000" size="21171"/>
+                <file name="ar.po" date="1125604200000" size="30153"/>
+                <file name="as.po" date="1125604200000" size="20731"/>
+                <file name="az.po" date="1125604200000" size="28221"/>
+                <file name="bg.po" date="1125604200000" size="32230"/>
+                <file name="bn.po" date="1125604200000" size="37300"/>
+                <file name="br.po" date="1125604200000" size="25010"/>
+                <file name="bs.po" date="1125604200000" size="26753"/>
+                <file name="ca.po" date="1125604200000" size="27245"/>
+                <file name="cs.po" date="1125604200000" size="27390"/>
+                <file name="cy.po" date="1125604200000" size="26420"/>
+                <file name="da.po" date="1125604200000" size="26338"/>
+                <file name="de.po" date="1125604200000" size="28112"/>
+                <file name="el.po" date="1125604200000" size="32392"/>
+                <file name="eo.po" date="1125604200000" size="26826"/>
+                <file name="es.po" date="1125604200000" size="27221"/>
+                <file name="et.po" date="1126229220000" size="26225"/>
+                <file name="eu.po" date="1125604200000" size="26727"/>
+                <file name="fa.po" date="1125604200000" size="31246"/>
+                <file name="fi.po" date="1125604200000" size="26281"/>
+                <file name="fr.po" date="1125604200000" size="28199"/>
+                <file name="ga.po" date="1125604200000" size="21540"/>
+                <file name="gl.po" date="1125604200000" size="26953"/>
+                <file name="he.po" date="1125604200000" size="29205"/>
+                <file name="hi.po" date="1125604200000" size="38420"/>
+                <file name="hr.po" date="1125604200000" size="26358"/>
+                <file name="hu.po" date="1125604200000" size="27893"/>
+                <file name="id.po" date="1125683460000" size="26751"/>
+                <file name="is.po" date="1125604200000" size="26695"/>
+                <file name="it.po" date="1125604200000" size="27383"/>
+                <file name="ja.po" date="1125604200000" size="29007"/>
+                <file name="ka.po" date="1125604200000" size="41187"/>
+                <file name="ku.po" date="1125604200000" size="28882"/>
+                <file name="ky.po" date="1125604200000" size="32325"/>
+                <file name="lt.po" date="1125604200000" size="26724"/>
+                <file name="lv.po" date="1125604200000" size="26288"/>
+                <file name="mk.po" date="1125604200000" size="33232"/>
+                <file name="mn.po" date="1125604200000" size="30040"/>
+                <file name="ms.po" date="1126804740000" size="24416"/>
+                <file name="mt.po" date="1125604200000" size="26787"/>
+                <file name="nb.po" date="1125604200000" size="26641"/>
+                <file name="nl.po" date="1125604200000" size="27062"/>
+                <file name="pa_IN.po" date="1125604200000" size="35097"/>
+                <file name="pl.po" date="1125604200000" size="26980"/>
+                <file name="pt.po" date="1125604200000" size="27009"/>
+                <file name="pt_BR.po" date="1126559220000" size="27123"/>
+                <file name="ro.po" date="1125604200000" size="27390"/>
+                <file name="ru.po" date="1125604200000" size="32481"/>
+                <file name="sc.po" date="1126892700000" size="26102"/>
+                <file name="sk.po" date="1125604200000" size="27241"/>
+                <file name="sl.po" date="1125604200000" size="26518"/>
+                <file name="sq.po" date="1125604200000" size="27095"/>
+                <file name="sr.po" date="1125604200000" size="28673"/>
+                <file name="sv.po" date="1125604200000" size="26350"/>
+                <file name="ta.po" date="1125604200000" size="32976"/>
+                <file name="tg.po" date="1125604200000" size="32586"/>
+                <file name="tl.po" date="1125604200000" size="27630"/>
+                <dir name="tools" date="1127769660000" size="2048">
+                    <file name="create_INSTALL.txt.pl" date="1125604200000" size="13651"/>
+                    <file name="create_README.txt.pl" date="1125604200000" size="8630"/>
+                    <file name="create_html.sh" date="1112846400000" size="539"/>
+                    <file name="create_index.htm.pl" date="1125604200000" size="15305"/>
+                    <file name="create_install.htm.pl" date="1125604200000" size="17105"/>
+                </dir>
+                <file name="tr.po" date="1125604200000" size="28091"/>
+                <file name="uk.po" date="1126712640000" size="32703"/>
+                <file name="uz.po" date="1125604200000" size="30893"/>
+                <file name="uz@Latn.po" date="1125604200000" size="26541"/>
+                <file name="vi.po" date="1125604200000" size="27788"/>
+                <file name="zh_CN.po" date="1125604200000" size="25784"/>
+                <file name="zh_TW.po" date="1125604200000" size="27101"/>
+            </dir>
+            <dir name="pt" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="7350"/>
+                <file name="README.txt" date="1126892700000" size="3628"/>
+                <file name="index.htm" date="1126892700000" size="7672"/>
+                <file name="install.htm" date="1126892700000" size="10032"/>
+            </dir>
+            <dir name="pt_BR" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="7425"/>
+                <file name="README.txt" date="1126892700000" size="3786"/>
+                <file name="index.htm" date="1126892700000" size="7878"/>
+                <file name="install.htm" date="1126892700000" size="10171"/>
+            </dir>
+            <dir name="ro" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7561"/>
+                <file name="INSTALL.txt-latin2" date="1125604200000" size="7561"/>
+                <file name="README.txt" date="1125604200000" size="3605"/>
+                <file name="README.txt-latin2" date="1125604200000" size="3605"/>
+                <file name="index.htm" date="1125604200000" size="7672"/>
+                <file name="install.htm" date="1125604200000" size="10363"/>
+            </dir>
+            <dir name="ru" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7634"/>
+                <file name="README.txt" date="1125604200000" size="3735"/>
+                <file name="index.htm" date="1125604200000" size="9585"/>
+                <file name="install.htm" date="1125604200000" size="13910"/>
+            </dir>
+            <dir name="sc" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="6924"/>
+                <file name="README.txt" date="1126892700000" size="3508"/>
+                <file name="index.htm" date="1126892700000" size="7555"/>
+                <file name="install.htm" date="1126892700000" size="9518"/>
+            </dir>
+            <dir name="sk" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7311"/>
+                <file name="LICENSE.txt" date="1125604200000" size="5073"/>
+                <file name="README.txt" date="1125604200000" size="3638"/>
+                <file name="index.htm" date="1125604200000" size="7826"/>
+                <file name="install.htm" date="1125604200000" size="10272"/>
+            </dir>
+            <dir name="sl" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7074"/>
+                <file name="README.txt" date="1125604200000" size="3522"/>
+                <file name="index.htm" date="1125604200000" size="7474"/>
+                <file name="install.htm" date="1125604200000" size="9641"/>
+            </dir>
+            <dir name="sq" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7718"/>
+                <file name="README.txt" date="1125604200000" size="3697"/>
+                <file name="index.htm" date="1125604200000" size="7828"/>
+                <file name="install.htm" date="1125604200000" size="10572"/>
+            </dir>
+            <dir name="sr" date="1127769660000" size="2048">
+                <file name="INSTALL.lat" date="1125604200000" size="6909"/>
+                <file name="INSTALL.txt" date="1125604200000" size="9175"/>
+                <file name="README.lat" date="1125604200000" size="3517"/>
+                <file name="README.txt" date="1125604200000" size="4650"/>
+                <file name="index.htm" date="1125604200000" size="8731"/>
+                <file name="install.htm" date="1125604200000" size="11689"/>
+            </dir>
+            <dir name="sv" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6907"/>
+                <file name="LICENSE-APPS.txt" date="971064000000" size="1256"/>
+                <file name="LICENSE.txt" date="1125604200000" size="4404"/>
+                <file name="README.txt" date="1125604200000" size="3467"/>
+                <file name="index.htm" date="1125604200000" size="7527"/>
+                <file name="install.htm" date="1125604200000" size="9661"/>
+            </dir>
+            <dir name="ta" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="12643"/>
+                <file name="README.txt" date="1125604200000" size="5519"/>
+                <file name="index.htm" date="1125604200000" size="9560"/>
+                <file name="install.htm" date="1125604200000" size="15071"/>
+            </dir>
+            <dir name="tg" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="11390"/>
+                <file name="README.txt" date="1125604200000" size="5363"/>
+                <file name="index.htm" date="1125604200000" size="9484"/>
+                <file name="install.htm" date="1125604200000" size="14052"/>
+            </dir>
+            <dir name="tl" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7863"/>
+                <file name="README.txt" date="1125604200000" size="3858"/>
+                <file name="index.htm" date="1125604200000" size="7831"/>
+                <file name="install.htm" date="1125604200000" size="10439"/>
+            </dir>
+            <dir name="tr" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="8361"/>
+                <file name="LICENSE-APPS.txt" date="1031716800000" size="1057"/>
+                <file name="README.txt" date="1125604200000" size="3548"/>
+                <file name="index.htm" date="1125604200000" size="7640"/>
+                <file name="install.htm" date="1125604200000" size="11285"/>
+            </dir>
+            <dir name="uk" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1126892700000" size="7737"/>
+                <file name="README-1251.txt" date="1126892700000" size="3679"/>
+                <file name="README.txt" date="1126892700000" size="3679"/>
+                <file name="index.htm" date="1126892700000" size="9483"/>
+                <file name="install.htm" date="1126892700000" size="14323"/>
+            </dir>
+            <dir name="uz" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="7617"/>
+                <file name="README.txt" date="1125604200000" size="3671"/>
+                <file name="index.htm" date="1125604200000" size="7615"/>
+                <file name="install.htm" date="1125604200000" size="10105"/>
+            </dir>
+            <dir name="vi" date="1127769660000" size="2048">
+                <file name="INSTALL.tcv" date="1125604200000" size="6930"/>
+                <file name="INSTALL.txt" date="1125604200000" size="8216"/>
+                <file name="README.tcv" date="1125604200000" size="3396"/>
+                <file name="README.txt" date="1125604200000" size="3935"/>
+                <file name="index.htm" date="1125604200000" size="7876"/>
+                <file name="install.htm" date="1125604200000" size="10668"/>
+            </dir>
+            <dir name="zh_CN" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="5483"/>
+                <file name="README.txt" date="1125604200000" size="2883"/>
+                <file name="index.htm" date="1125604200000" size="7353"/>
+                <file name="install.htm" date="1125604200000" size="9268"/>
+            </dir>
+            <dir name="zh_TW" date="1127769660000" size="2048">
+                <file name="INSTALL.txt" date="1125604200000" size="6971"/>
+                <file name="README.txt" date="1125604200000" size="3703"/>
+                <file name="index.htm" date="1125604200000" size="7696"/>
+                <file name="install.htm" date="1125604200000" size="9687"/>
+            </dir>
+        </dir>
+    </dir>
+    <dir name="dosutils" date="1127769660000" size="2048">
+        <file name="README" date="986270400000" size="330"/>
+        <file name="autorun.exe" date="1094616000000" size="520704"/>
+        <file name="autorun.ico" date="1032408000000" size="11502"/>
+        <file name="diskio.dll" date="967780800000" size="21190"/>
+        <file name="fips.exe" date="967780800000" size="172096"/>
+        <file name="gzip.exe" date="967780800000" size="39910"/>
+        <dir name="lang" date="1127769660000" size="2048">
+            <file name="autorun-10.1.jpg" date="1095134400000" size="99317"/>
+            <file name="autorun.conf" date="1125288000000" size="4372"/>
+        </dir>
+        <file name="rawrite.exe" date="967780800000" size="14305"/>
+        <file name="rawwrite.exe" date="967780800000" size="378368"/>
+        <file name="rawwritewin.exe" date="967780800000" size="378368"/>
+        <file name="rdev.exe" date="967780800000" size="9480"/>
+        <file name="restorrb.exe" date="967780800000" size="13614"/>
+    </dir>
+    <file name="export" date="1127483100000" size="170496"/>
+    <file name="index.htm" date="1126888260000" size="10232"/>
+    <dir name="install" date="1127769660000" size="2048">
+        <dir name="extra" date="1127769660000" size="2048">
+            <dir name="advertising" date="1127769660000" size="8192">
+                <file name="01.pl" date="1125460800000" size="58"/>
+                <file name="01.png" date="1126123740000" size="118868"/>
+                <file name="02.pl" date="1125460800000" size="66"/>
+                <file name="02.png" date="1126123740000" size="130309"/>
+                <file name="03.pl" date="1125460800000" size="52"/>
+                <file name="03.png" date="1126123800000" size="103469"/>
+                <file name="04.pl" date="1125460800000" size="46"/>
+                <file name="04.png" date="1126123800000" size="128549"/>
+                <file name="05.pl" date="1125460800000" size="51"/>
+                <file name="05.png" date="1126123800000" size="64047"/>
+                <file name="06.pl" date="1125460800000" size="70"/>
+                <file name="06.png" date="1126123800000" size="120364"/>
+                <file name="07.pl" date="1125460800000" size="53"/>
+                <file name="07.png" date="1126123800000" size="117847"/>
+                <file name="09.pl" date="1125460800000" size="41"/>
+                <file name="09.png" date="1126123860000" size="139248"/>
+                <file name="10.pl" date="1125460800000" size="51"/>
+                <file name="10.png" date="1126123860000" size="114298"/>
+                <file name="11.pl" date="1125460800000" size="51"/>
+                <file name="11.png" date="1126123920000" size="121135"/>
+                <file name="12.pl" date="1125460800000" size="67"/>
+                <file name="12.png" date="1126123920000" size="83498"/>
+                <file name="13.pl" date="1125695700000" size="74"/>
+                <file name="13.png" date="1126123980000" size="144564"/>
+                <file name="15.pl" date="1125460800000" size="59"/>
+                <file name="15.png" date="1126124040000" size="132836"/>
+                <file name="16.pl" date="1125460800000" size="71"/>
+                <file name="16.png" date="1126124040000" size="132097"/>
+                <file name="17.pl" date="1125460800000" size="54"/>
+                <file name="17.png" date="1126124040000" size="103010"/>
+                <file name="19.pl" date="1125460800000" size="65"/>
+                <file name="19.png" date="1126124100000" size="110817"/>
+                <file name="20.pl" date="1125460800000" size="55"/>
+                <file name="20.png" date="1126124160000" size="111347"/>
+                <file name="21.pl" date="1125460800000" size="43"/>
+                <file name="21.png" date="1126124160000" size="112176"/>
+                <file name="22.pl" date="1125460800000" size="69"/>
+                <file name="22.png" date="1126124160000" size="110507"/>
+                <file name="23.pl" date="1125460800000" size="66"/>
+                <file name="23.png" date="1126124220000" size="102567"/>
+                <file name="24.pl" date="1125460800000" size="67"/>
+                <file name="24.png" date="1126124220000" size="84918"/>
+                <file name="25.pl" date="1125460800000" size="73"/>
+                <file name="25.png" date="1126124220000" size="153257"/>
+                <file name="26.pl" date="1125460800000" size="71"/>
+                <file name="26.png" date="1126124280000" size="89948"/>
+                <file name="intel.pl" date="1127138340000" size="46"/>
+                <file name="intel.png" date="1127138160000" size="7920"/>
+                <file name="list" date="1127769660000" size="181"/>
+                <file name="skype.pl" date="1126874880000" size="88"/>
+                <file name="skype.png" date="1126874640000" size="17190"/>
+            </dir>
+        </dir>
+        <dir name="images" date="1127769660000" size="2048">
+            <file name="MD5SUM" date="1127483160000" size="416"/>
+            <file name="README" date="1095048000000" size="3487"/>
+            <file name="all.img" date="1127483160000" size="8192000"/>
+            <dir name="alternatives" date="1127769660000" size="2048">
+                <file name="MD5SUM" date="1127483160000" size="60"/>
+                <file name="all.img-2.6.8.1-12mdkBOOT" date="1127483160000" size="8192000"/>
+            </dir>
+            <file name="boot.iso" date="1127483160000" size="13135872"/>
+            <file name="cdrom.img" date="1127483160000" size="1474560"/>
+            <file name="hd_grub.img" date="1127483160000" size="166580"/>
+            <file name="ka.img" date="1127483160000" size="3020800"/>
+            <file name="network.img" date="1127483160000" size="1474560"/>
+            <file name="network_drivers.img" date="1127483160000" size="1474560"/>
+            <file name="pcmcia.img" date="1127483160000" size="1474560"/>
+        </dir>
+        <dir name="stage2" date="1127769660000" size="2048">
+            <file name="VERSION" date="1127483220000" size="48"/>
+            <file name="mdkinst.clp" date="1127483280000" size="47112719"/>
+            <file name="mdkinst.clp.iso" date="1121400000000" size="0"/>
+            <file name="mdkinst.kernels" date="1127483220000" size="60"/>
+            <file name="rescue.clp" date="1127483280000" size="21171572"/>
+        </dir>
+        <dir name="thirdparty" date="1127769660000" size="2048">
+            <file name="a320raid.ko" date="1127234340000" size="394996"/>
+            <file name="pcitable" date="1126198920000" size="1520"/>
+            <file name="to_detect" date="1126198920000" size="9"/>
+            <file name="to_load" date="1126198920000" size="16"/>
+        </dir>
+    </dir>
+    <dir name="isolinux" date="1127769660000" size="2048">
+        <file name="advanced.msg" date="1127483100000" size="1068"/>
+        <dir name="alt0" date="1127769660000" size="2048">
+            <file name="all.rdz" date="1127769660000" size="5391101"/>
+            <file name="vmlinuz" date="1127483100000" size="1566953"/>
+        </dir>
+        <dir name="alt1" date="1127769660000" size="2048">
+            <file name="all.rdz" date="1127769660000" size="4604634"/>
+            <file name="vmlinuz" date="1127483100000" size="801966"/>
+        </dir>
+        <file name="boot.cat" date="1127770380000" size="2048"/>
+        <file name="boot.msg" date="1127769660000" size="268407"/>
+        <file name="help.msg" date="1127483100000" size="973"/>
+        <file name="isolinux.bin" date="1127768760000" size="9660"/>
+        <file name="isolinux.cfg" date="1127483100000" size="1175"/>
+        <dir name="test" date="1127769660000" size="2048">
+            <file name="memtest.bin" date="1127483100000" size="94664"/>
+        </dir>
+        <dir name="xbox" date="1127769660000" size="2048">
+            <file name="initrd" date="1127483100000" size="2999485"/>
+            <file name="vmlinuz" date="1127483100000" size="1270349"/>
+        </dir>
+    </dir>
+    <dir name="lang" date="1127769660000" size="2048">
+        <file name="autorun-10.1.jpg" date="1095134400000" size="99317"/>
+        <file name="autorun.conf" date="1125288000000" size="4372"/>
+    </dir>
+    <file name="linuxboot.cfg" date="1122436800000" size="121"/>
+    <dir name="misc" date="1127769660000" size="2048">
+        <file name="ChangeLog.bz2" date="984546000000" size="26224"/>
+        <file name="README" date="984546000000" size="204"/>
+        <dir name="auto" date="1127769660000" size="2048">
+            <dir name="URPM" date="1127769660000" size="2048">
+                <file name="URPM.so" date="1127482980000" size="106916"/>
+            </dir>
+        </dir>
+        <file name="autorun.tar.gz" date="1075179600000" size="658325"/>
+        <dir name="bin" date="1127769660000" size="2048">
+            <file name="mkisofs" date="1097208000000" size="424160"/>
+        </dir>
+        <file name="drakx-in-chroot" date="1126540740000" size="4161"/>
+        <file name="gendistrib" date="1127482980000" size="14694"/>
+        <file name="mdkinst_stage2_tool" date="1127482980000" size="1157"/>
+        <file name="packdrake" date="1127482980000" size="4571"/>
+        <file name="packdrake.pm" date="1127482980000" size="5109"/>
+        <file name="rpm2header" date="1018238400000" size="4380"/>
+    </dir>
+    <file name="pkg-2006.0.idx" date="1127770380000" size="185285"/>
+    <file name="release-notes.txt" date="1127766960000" size="24774"/>
+</mirror>

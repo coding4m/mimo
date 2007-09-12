@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+
+Note: 02:: test to be run from inside Mandriva's intranet
+
+    TEST FILE
+    =========
+    The default configuration file is mirrormetrics-config.xml
+    Please consult this file for detailled information about the
+    parameters.
+-->
+<mirrormetrics>
+    <user login="anonymous" realname="Anonymous User">
+        <passwd>edos-project@mandriva.com</passwd>
+    </user>
+    
+    <!--
+    <listing host="www1.mandrivalinux.com">
+        <access protocol="http" path="/mirrorsfull.list"/>
+    </listing>
+    -->
+    
+    <analysis depth="complete" verbosity="high"/>
+    <storage type="tree" />
+    <delta limit="100"/>
+    <schedule>
+        <frequency hours="24"/>
+        <!-- will start every 15 minutes -->
+        <cron expression="0 0/1 * * * ?"/>
+    </schedule>
+    <!-- 
+    <logging type="log4j" config="log4j-config-4testing.xml" />
+    -->
+        <!-- -->
+    <logging type="log4j" config="log4j-config-4debugging.xml" />
+    
+    
+    <mastermirror name="Kenobi" host="kenobi">
+        <!-- subset of cooker! -->
+        <access protocol="ssh" path="/mnt/BIG/distrib/cooker/cooker/media/jpackage"/>
+		<!-- change this with your own dsa key registered with Kenobi if you have one -->
+		<user login="mlijour" realname="Marc Lijour">
+			<dsakey path="/home/marc/.ssh/mlijour@mandriva.com_dsa"/>
+		</user>
+    </mastermirror>
+    
+    <secondarymirror host="ftp.free.fr">
+        <!-- subset of cooker! -->
+        <access protocol="ftp" path="/pub/Distributions_Linux/MandrivaLinux/devel/cooker/cooker/media/jpackage"/>
+    </secondarymirror>
+    
+    <secondarymirror host="ftp.proxad.fr">
+        <!-- subset of cooker! -->
+        <access protocol="ftp" path="/pub/Distributions_Linux/MandrivaLinux/devel/cooker/cooker/media/jpackage"/>
+    </secondarymirror>
+</mirrormetrics>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<delta mirror="master" type="mirror" name="Master" host="mirror" protocol="ftp" path="/pub/test" timestamp="2006-10-28T20:29:02.33">
+  <update xpath="/mirror/dir[@name='media']" date="2005-10-28T21:40:00.0"/>
+  <del xpath="/mirror/dir[@name='media']/dir[@name='added']"/>
+  <del xpath="/mirror/dir[@name='media']/dir[@name='added2']"/>
+</delta>
